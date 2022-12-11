@@ -1,0 +1,27 @@
+.hole-game {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: url("../img/hammer3.png"),auto;
+}
+
+.hole {
+    width: 140px;
+    height: 140px;
+    margin: 0 15px 30px;
+    background: gray;
+    border-radius: 50%;
+}
+
+.goblin {
+    background-image: url("../img/goblin.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: brown;
+  }
+
+.status {
+    margin: 15px;
+}  
